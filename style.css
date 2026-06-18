@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    padding: 40px;
+}
+
+.container {
+    max-width: 850px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.15);
+}
+
+h1 {
+    text-align: center;
+    color: #2563eb;
+}
+
+p {
+    text-align: center;
+    color: #666;
+}
+
+.controls {
+    text-align: center;
+    margin-top: 20px;
+}
+
+select {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+#output {
+    margin-top: 25px;
+    padding: 20px;
+    background: #f8fafc;
+    border-left: 5px solid #2563eb;
+    border-radius: 8px;
+}
+
+ol li {
+    margin: 10px 0;
+}
+
+.tip-box {
+    margin-top: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 5px solid green;
+}
+
+.score-box {
+    margin-top: 15px;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 5px solid orange;
+}
